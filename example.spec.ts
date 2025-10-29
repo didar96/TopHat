@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
-import { ShopPage } from '../page-objects/page';
-import { AMAZON_HOME_URL, INVALID_EMAIL, Products } from '../constants';
+import { ShopPage } from './page';
+import { AMAZON_HOME_URL, INVALID_EMAIL, Products } from './constants';
 
 test('amazon candle purchase flow', async ({ page }) => {
   test.setTimeout(60000);
